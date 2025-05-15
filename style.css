@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eeecec;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input,
+button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.copiado {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

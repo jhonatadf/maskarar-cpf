@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CPF Mask</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>CPF Mask</h2>
+
+    <label for="cpf">Digite o CPF (com ou sem pontos/traço):</label>
+    <input
+      type="text"
+      id="cpf"
+      placeholder="ex: 782.856.563-47 ou 89686989878"
+    />
+
+    <button onclick="mascararCPF()">Maskarar 🥷🏻</button>
+
+    <div class="resultado" id="resultado"></div>
+    <div class="copiado" id="copiado"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
