@@ -21,10 +21,10 @@ function mascararCPF() {
   navigator.clipboard
     .writeText(cpfMascarado)
     .then(() => {
-      copiadoDiv.innerText = "CPF mascarado copiado!";
+      copiadoDiv.innerText = "CPF mascarado copiado! :D";
     })
     .catch(() => {
-      copiadoDiv.innerText = "Não foi possível copiar automaticamente.";
+      copiadoDiv.innerText = "Não foi possível copiar automaticamente :(";
     });
 
   // limpa o campo e retoma o paceholder ativo
