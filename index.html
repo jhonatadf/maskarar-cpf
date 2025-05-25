@@ -6,19 +6,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h2>CPF Mask</h2>
+    <div class="container">
+      <label for="cpf">Digite o CPF (com ou sem pontos/traço):</label>
+      <input
+        type="text"
+        id="cpf"
+        placeholder="ex: 782.856.563-47 ou 89686989878"
+      />
 
-    <label for="cpf">Digite o CPF (com ou sem pontos/traço):</label>
-    <input
-      type="text"
-      id="cpf"
-      placeholder="ex: 782.856.563-47 ou 89686989878"
-    />
+      <button onclick="mascararCPF()">Mascarar</button>
 
-    <button onclick="mascararCPF()">Mascarar</button>
+      <div class="resultado" id="resultado"></div>
+      <div class="copiado" id="copiado"></div>
+    </div>
 
-    <div class="resultado" id="resultado"></div>
-    <div class="copiado" id="copiado"></div>
+    <div class="logo-container">
+      <img src="pmg_branco.png" alt="Prefeitura de Guarulhos" />
+    </div>
 
     <script src="script.js"></script>
   </body>
